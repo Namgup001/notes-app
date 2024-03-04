@@ -1,0 +1,33 @@
+.create-task-textarea {
+    width: 100%;
+    min-height: 100px;
+    resize: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.task-checkbox {
+    margin-right: 10px;
+}
+
+.task-text {
+    text-decoration: none;
+}
+
+.task-text.completed {
+    text-decoration: line-through;
+}

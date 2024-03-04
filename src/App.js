@@ -1,10 +1,10 @@
 import './App.css';
-import CreateTask from './components/CreateTask';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className="App">
-      <CreateTask />
+      <Home />
     </div>
   );
 }
